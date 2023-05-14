@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <body>
+        <header>
+            <!-- <h1 class="text-6xl text-center mb-10 mt-5">Calculator</h1> -->
+        </header>
+        <main>
+            <section>
+                <div class="text-center ">
+                    <input type="tel" name="" id="input-field" class="bg-gray-100 py-5 my-5 w-1/4 rounded-md mb-5 border-solid border-2 border-teal-700 text-4xl"><div>
+        <div id="btn-container" class="grid grid-cols-4 gap-4 w-1/4 text-center text-4xl mx-auto container">
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('7')">7</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('8')">8</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('9')">9</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100">/</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('4')">4</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('5')">5</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('6')">6</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100">*</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('1')">1</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('2')">2</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('3')">3</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" id="minus">-</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('00')"">00</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('0')">0</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" onclick="showOnDisplay('.')">.</button>
+            <button class="rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" id="add">+</button>
+            <button class="col-span-2  rounded-md py-3 bg-teal-400 hover:bg-teal-600 hover:text-neutral-100" id="del">CLEAR</button>
+            <button class="col-span-2 rounded-md py-3 bg-blue-600 hover:bg-blue-900 hover:text-neutral-100" id="result">=</button>
+      </div>
+            </section>
+        </main>
+    
+        <script src="/script.js"></script>
+</body>
+</html>
